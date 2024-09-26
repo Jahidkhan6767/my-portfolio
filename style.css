@@ -1,0 +1,169 @@
+#body{
+    height: 1000px;
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#body #h1{
+    position: relative;
+    left: 500px;
+
+}
+#home{
+     height: 500px;
+     width: 1000px;      
+     background-color: black;
+     margin: 30px 0px 0px 130px;
+     border-radius: 20px;
+     box-shadow: 6px 6px 20px black;
+    
+}
+#logo{
+    height:60px ;
+    width: 150px;
+}
+
+#logo img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#logo img+h3{
+    width: 70px;
+    color: bisque;
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+}
+#logo img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+#navbar{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#navbar a{
+    color: bisque;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+#navbar a:hover{ 
+    text-decoration: underline;
+}
+ #para{
+    height: 400px;
+    width: 600px;
+}
+ #para h1{
+    color: bisque;
+    text-align: left;
+    margin: 10px;
+    padding: 20px ;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+ }
+ #para h2{
+    color: bisque;
+    text-align: left;
+    padding: 30px 0px 0px 50px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+#para h2 p{
+    padding: 0px 0px 0px 40px;
+ }
+#main{
+    position: absolute;
+    left: 750px;
+    top: 230px;  
+ }
+  #main img{
+    border-radius: 30px 100px 30px 100px;
+ }
+ #boxs{
+    height: 250px;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+ }
+ #boxs #aboutme{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
+}
+#boxs #aboutme h2 {
+    color: bisque;
+    text-align: center;
+}
+#boxs #aboutme h2+p{
+    color: bisque;
+    text-align: center;
+    line-height: 25px;
+}
+#boxs #aboutme:hover{
+    box-shadow: 6px 6px 20px black;
+    transition: 0.5s;
+ }
+#boxs #project{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px; 
+}
+#boxs #project:hover{
+    box-shadow: 6px 6px 20px black;
+    transition: 0.5s;
+ }
+ #boxs #project h2 {
+    color: bisque;
+    text-align: center;
+}
+#boxs #project h2+ul{
+    color: bisque;
+    line-height: 30px;
+}
+#boxs #contacts{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
+}
+#boxs #contacts:hover{
+    box-shadow: 6px 6px 20px black;
+    transition: 0.5s;
+ }
+ #boxs #contacts h2 {
+    color: bisque;
+    text-align: center;
+}
+#boxs #contacts h2+ul{
+    color: bisque;
+    line-height: 30px;
+}
+#socialmedia{
+    position: relative;
+    left: 280px;
+    top: 150px;
+    
+}
+#socialmedia a {
+    font-size: 30px;
+    padding: 40px;
+    color: black;
+}
+#socialmedia a :hover{
+    box-shadow: 2px 2px 10px black;
+}
